@@ -21,6 +21,7 @@ export default function RootLayout(props: PropsWithChildren) {
           enableSystem
           disableTransitionOnChange
         >
+          
           {props.children}
         </ThemeProvider>
       </body>
